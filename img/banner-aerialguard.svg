@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 918 400" aria-hidden="true">
+  <defs>
+    <linearGradient id="bgAG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef3ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="918" height="400" fill="url(#bgAG)"/>
+
+  <!-- city blocks, top-down -->
+  <g fill="#c5d5ff" fill-opacity=".5" stroke="#82b1ff" stroke-width="2">
+    <rect x="89" y="64" width="92" height="56" rx="8"/>
+    <rect x="305" y="64" width="92" height="56" rx="8"/>
+    <rect x="521" y="64" width="92" height="56" rx="8"/>
+    <rect x="737" y="64" width="92" height="56" rx="8"/>
+    <rect x="197" y="136" width="92" height="56" rx="8"/>
+    <rect x="413" y="136" width="92" height="56" rx="8"/>
+    <rect x="629" y="136" width="92" height="56" rx="8"/>
+    <rect x="89" y="208" width="92" height="56" rx="8"/>
+    <rect x="305" y="208" width="92" height="56" rx="8"/>
+    <rect x="521" y="208" width="92" height="56" rx="8"/>
+    <rect x="737" y="208" width="92" height="56" rx="8"/>
+    <rect x="197" y="280" width="92" height="56" rx="8"/>
+    <rect x="413" y="280" width="92" height="56" rx="8"/>
+    <rect x="629" y="280" width="92" height="56" rx="8"/>
+  </g>
+  <g fill="#c5d5ff" fill-opacity=".26" stroke="#82b1ff" stroke-width="2">
+    <rect x="197" y="64" width="92" height="56" rx="8"/>
+    <rect x="413" y="64" width="92" height="56" rx="8"/>
+    <rect x="629" y="64" width="92" height="56" rx="8"/>
+    <rect x="89" y="136" width="92" height="56" rx="8"/>
+    <rect x="305" y="136" width="92" height="56" rx="8"/>
+    <rect x="521" y="136" width="92" height="56" rx="8"/>
+    <rect x="737" y="136" width="92" height="56" rx="8"/>
+    <rect x="197" y="208" width="92" height="56" rx="8"/>
+    <rect x="413" y="208" width="92" height="56" rx="8"/>
+    <rect x="89" y="280" width="92" height="56" rx="8"/>
+    <rect x="305" y="280" width="92" height="56" rx="8"/>
+    <rect x="521" y="280" width="92" height="56" rx="8"/>
+    <rect x="737" y="280" width="92" height="56" rx="8"/>
+  </g>
+
+  <!-- anomaly cell, glowing -->
+  <rect x="621" y="200" width="108" height="72" rx="13" fill="none"
+        stroke="#ff6d3f" stroke-opacity=".3" stroke-width="6"/>
+  <rect x="629" y="208" width="92" height="56" rx="8" fill="#ff6d3f"
+        fill-opacity=".3" stroke="#ff6d3f" stroke-width="3"/>
+
+  <!-- patrol path along the streets -->
+  <circle cx="74" cy="128" r="5" fill="#2962ff"/>
+  <path d="M82 128 H705 Q729 128 729 152 V176 Q729 200 705 200 H213 Q189 200 189 224 V248 Q189 272 213 272 H592 Q621 272 630 258"
+        fill="none" stroke="#2962ff" stroke-width="3.5" stroke-linecap="round"
+        stroke-dasharray="13 11"/>
+
+  <!-- quadcopter over the anomaly -->
+  <g stroke="#0039cb" stroke-linecap="round">
+    <path d="M678 230 L654 206 M678 230 L702 206 M678 230 L654 254 M678 230 L702 254"
+          stroke-width="4.5" fill="none"/>
+    <g fill="#ffffff" fill-opacity=".85" stroke-width="3.5">
+      <circle cx="654" cy="206" r="12.5"/>
+      <circle cx="702" cy="206" r="12.5"/>
+      <circle cx="654" cy="254" r="12.5"/>
+      <circle cx="702" cy="254" r="12.5"/>
+    </g>
+  </g>
+  <circle cx="678" cy="230" r="10.5" fill="#0039cb"/>
+  <circle cx="678" cy="226" r="3" fill="#ffffff"/>
+</svg>

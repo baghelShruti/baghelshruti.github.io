@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 918 400" aria-hidden="true">
+  <defs>
+    <linearGradient id="bgAM" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef3ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="918" height="400" fill="url(#bgAM)"/>
+
+  <!-- weight simplex -->
+  <path d="M160 308 L400 308 L280 92 Z" fill="#c5d5ff" fill-opacity=".22"
+        stroke="#2962ff" stroke-width="3.5" stroke-linejoin="round"/>
+
+  <!-- barycentric ties from adaptive point to objectives -->
+  <g stroke="#c5d5ff" stroke-width="2" stroke-dasharray="3 7" stroke-linecap="round">
+    <path d="M300 212 L160 308"/>
+    <path d="M300 212 L400 308"/>
+    <path d="M300 212 L280 92"/>
+  </g>
+
+  <!-- objective vertices -->
+  <g fill="#0039cb">
+    <circle cx="160" cy="308" r="7"/>
+    <circle cx="400" cy="308" r="7"/>
+    <circle cx="280" cy="92" r="7"/>
+  </g>
+
+  <!-- adaptive weight trajectory -->
+  <circle cx="252" cy="262" r="4" fill="#c5d5ff"/>
+  <circle cx="272" cy="240" r="5" fill="#c5d5ff"/>
+  <path d="M244 272 C258 256 272 238 286 224" fill="none" stroke="#82b1ff"
+        stroke-width="2.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+  <polygon points="295,217 290,229 283,222" fill="#82b1ff"/>
+  <circle cx="300" cy="212" r="8" fill="#ff6d3f" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- five reward signals converging into one policy -->
+  <g fill="none" stroke-width="2.5" stroke-linecap="round" opacity=".9">
+    <path d="M480 96 C540 88 592 122 636 154 C664 175 686 191 700 200" stroke="#82b1ff"/>
+    <path d="M480 148 C536 140 592 166 638 182 C662 190 686 196 700 200" stroke="#2962ff"/>
+    <path d="M480 200 C536 190 584 212 636 203 C660 199 686 200 700 200" stroke="#82b1ff"/>
+    <path d="M480 252 C536 262 592 234 638 218 C662 210 686 204 700 200" stroke="#2962ff"/>
+    <path d="M480 304 C540 314 592 276 636 246 C664 225 686 209 700 200" stroke="#82b1ff"/>
+  </g>
+  <circle cx="700" cy="200" r="6.5" fill="#2962ff"/>
+  <path d="M706 200 H828" fill="none" stroke="#0039cb" stroke-width="6" stroke-linecap="round"/>
+  <polygon points="856,200 832,190 832,210" fill="#0039cb"/>
+</svg>

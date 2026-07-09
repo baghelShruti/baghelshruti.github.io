@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 918 400" aria-hidden="true">
+  <defs>
+    <linearGradient id="bgTB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef3ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="918" height="400" fill="url(#bgTB)"/>
+
+  <!-- faint horizontal gridlines -->
+  <g stroke="#c5d5ff" stroke-width="1.5" stroke-dasharray="4 9" opacity=".6">
+    <path d="M118 120 H826"/>
+    <path d="M118 190 H826"/>
+    <path d="M118 260 H826"/>
+  </g>
+
+  <!-- axes -->
+  <g stroke="#82b1ff" stroke-width="3.5" stroke-linecap="round" fill="none">
+    <path d="M110 320 H814"/>
+    <path d="M110 326 V84"/>
+  </g>
+  <polygon points="834,320 816,312 816,328" fill="#82b1ff"/>
+  <polygon points="110,66 102,84 118,84" fill="#82b1ff"/>
+
+  <!-- Pareto frontier with cliff-like collapse -->
+  <path d="M150 105 C270 112 390 130 480 155 C520 166 548 168 560 172 C567 200 566 240 574 266 C592 284 690 292 800 297"
+        fill="none" stroke="#2962ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- dominated models -->
+  <g fill="#c5d5ff" stroke="#82b1ff" stroke-width="2">
+    <circle cx="250" cy="180" r="6"/>
+    <circle cx="360" cy="228" r="6"/>
+    <circle cx="470" cy="262" r="6"/>
+    <circle cx="640" cy="310" r="6"/>
+  </g>
+
+  <!-- models on the frontier -->
+  <g fill="#2962ff" stroke="#ffffff" stroke-width="2">
+    <circle cx="200" cy="109" r="7"/>
+    <circle cx="343" cy="125" r="7"/>
+    <circle cx="452" cy="148" r="7"/>
+    <circle cx="538" cy="167" r="7"/>
+    <circle cx="652" cy="286" r="7"/>
+    <circle cx="752" cy="295" r="7"/>
+  </g>
+
+  <!-- one model falling off the cliff -->
+  <path d="M566 186 C580 200 598 222 606 240" fill="none" stroke="#ff6d3f"
+        stroke-width="3" stroke-linecap="round" stroke-dasharray="2 8" opacity=".85"/>
+  <circle cx="610" cy="252" r="8" fill="#ff6d3f" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- 4-step pressure gradient along x -->
+  <g>
+    <rect x="430" y="340" width="58" height="14" rx="7" fill="#c5d5ff"/>
+    <rect x="496" y="340" width="58" height="14" rx="7" fill="#82b1ff"/>
+    <rect x="562" y="340" width="58" height="14" rx="7" fill="#2962ff"/>
+    <rect x="628" y="340" width="58" height="14" rx="7" fill="#0039cb"/>
+    <polygon points="718,347 698,338 698,356" fill="#0039cb"/>
+  </g>
+</svg>

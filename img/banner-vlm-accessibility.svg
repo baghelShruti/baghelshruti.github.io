@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 918 400" aria-hidden="true">
+  <defs>
+    <linearGradient id="bgVA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef3ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+  </defs>
+  <rect width="918" height="400" fill="url(#bgVA)"/>
+
+  <!-- filmstrip -->
+  <rect x="70" y="128" width="400" height="144" rx="12" fill="#ffffff" fill-opacity=".55"
+        stroke="#2962ff" stroke-width="3.5"/>
+  <g stroke="#c5d5ff" stroke-width="9" stroke-dasharray="12 21">
+    <path d="M88 141 H448"/>
+    <path d="M88 259 H448"/>
+  </g>
+  <g fill="#c5d5ff" fill-opacity=".35" stroke="#82b1ff" stroke-width="3">
+    <rect x="94" y="158" width="104" height="84" rx="6"/>
+    <rect x="218" y="158" width="104" height="84" rx="6"/>
+    <rect x="342" y="158" width="104" height="84" rx="6"/>
+  </g>
+  <!-- motion across frames -->
+  <g stroke="#82b1ff" stroke-width="2.5" stroke-linecap="round">
+    <path d="M106 222 H186"/>
+    <path d="M230 222 H310"/>
+    <path d="M354 222 H434"/>
+  </g>
+  <g fill="#2962ff">
+    <circle cx="118" cy="206" r="7"/>
+    <circle cx="270" cy="192" r="7"/>
+    <circle cx="422" cy="180" r="7"/>
+  </g>
+
+  <!-- spoken description waves -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M526 169 A40 40 0 0 1 526 231" stroke="#ff6d3f" stroke-width="4.5"/>
+    <path d="M548 143 A74 74 0 0 1 548 257" stroke="#2962ff" stroke-width="4"/>
+    <path d="M569 117 A108 108 0 0 1 569 283" stroke="#82b1ff" stroke-width="4"/>
+    <path d="M591 91 A142 142 0 0 1 591 309" stroke="#c5d5ff" stroke-width="4"/>
+  </g>
+
+  <!-- closed eye -->
+  <g fill="none" stroke="#2962ff" stroke-linecap="round">
+    <path d="M690 192 Q760 248 830 192" stroke-width="4"/>
+    <path d="M718 210 L710 229 M746 219 L743 240 M774 219 L777 240 M802 210 L810 229"
+          stroke-width="3.5"/>
+  </g>
+</svg>

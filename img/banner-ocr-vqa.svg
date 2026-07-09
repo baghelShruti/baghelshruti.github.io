@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 918 400" aria-hidden="true">
+  <defs>
+    <linearGradient id="bgOQ" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef3ff"/>
+      <stop offset="1" stop-color="#ffffff"/>
+    </linearGradient>
+    <clipPath id="lensClip">
+      <circle cx="655" cy="196" r="89"/>
+    </clipPath>
+  </defs>
+  <rect width="918" height="400" fill="url(#bgOQ)"/>
+
+  <!-- title line -->
+  <path d="M90 96 H300" stroke="#2962ff" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- clean text lines -->
+  <g stroke="#82b1ff" stroke-width="11" stroke-linecap="round">
+    <path d="M90 136 H198 M214 136 H322 M338 136 H438"/>
+    <path d="M90 176 H166 M182 176 H286 M302 176 H438"/>
+    <path d="M90 216 H214 M230 216 H330 M346 216 H438"/>
+    <path d="M90 256 H182 M198 256 H302 M318 256 H438"/>
+    <path d="M90 296 H238 M254 296 H358 M374 296 H438"/>
+  </g>
+
+  <!-- degraded, broken lines -->
+  <g stroke="#c5d5ff" stroke-width="10" stroke-linecap="round" opacity=".9">
+    <path d="M470 134 H524 M538 139 H572 M586 133 H604 M618 138 H630 M644 135 H650"/>
+    <path d="M470 175 H518 M532 180 H558 M572 173 H586 M600 179 H608"/>
+    <path d="M470 214 H510 M524 220 H546 M560 213 H570"/>
+    <path d="M470 258 H506 M520 252 H538 M552 259 H560"/>
+    <path d="M470 297 H500 M514 292 H524"/>
+    <path d="M760 137 H788 M800 133 H812"/>
+    <path d="M758 177 H780 M792 174 H820"/>
+    <path d="M764 218 H800 M812 215 H822"/>
+    <path d="M762 254 H790"/>
+    <path d="M766 295 H806"/>
+  </g>
+  <!-- noise specks -->
+  <g fill="#c5d5ff" opacity=".8">
+    <circle cx="530" cy="118" r="2.5"/>
+    <circle cx="585" cy="156" r="2.5"/>
+    <circle cx="548" cy="238" r="2.5"/>
+    <circle cx="500" cy="196" r="2.5"/>
+    <circle cx="505" cy="278" r="2.5"/>
+    <circle cx="600" cy="310" r="2.5"/>
+    <circle cx="795" cy="118" r="2.5"/>
+    <circle cx="782" cy="238" r="2.5"/>
+    <circle cx="816" cy="196" r="2.5"/>
+  </g>
+
+  <!-- magnifier restoring the text -->
+  <circle cx="655" cy="196" r="96" fill="#ffffff" fill-opacity=".93"
+          stroke="#0039cb" stroke-width="5"/>
+  <g clip-path="url(#lensClip)" stroke-linecap="round" stroke-width="11">
+    <path d="M584 136 H726" stroke="#2962ff"/>
+    <path d="M572 176 H660 M676 176 H738" stroke="#2962ff"/>
+    <path d="M572 216 H604 M716 216 H738" stroke="#2962ff"/>
+    <path d="M620 216 H700" stroke="#ff6d3f"/>
+    <path d="M592 256 H716" stroke="#2962ff"/>
+  </g>
+  <path d="M723 264 L788 330" stroke="#0039cb" stroke-width="11" stroke-linecap="round"/>
+</svg>
